@@ -7,7 +7,7 @@
 - table, thead, tbody, tr, th and td tags
 - CSS selectors :nth-child(), :first-child(), :last-child(), etc.
 - Responsiv Table by using the CSS property: "overflow-x: auto;"
-- CSS properties: counter-reset: and counter-increment:.
+- CSS properties: "counter-reset:" and "counter-increment:".
 
 ![Periodic-table](img/periodicTable.png)
 
