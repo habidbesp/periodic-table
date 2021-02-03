@@ -1,0 +1,249 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+main {
+  width: 96%;
+  margin: 1% auto;
+}
+
+table {
+  table-layout: fixed;
+  width: 1390px;
+  color: #ffffff;
+  counter-reset: section section-2 71 section-3 103;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+thead {
+  background-color: #000000;
+}
+
+.symbol-container::before {
+  counter-increment: section;
+  content: counter(section);
+  font-size: 1rem;
+  padding-left: 0.3rem;
+}
+
+.symbol-container-1::before {
+  counter-increment: section-2;
+  content: counter(section-2);
+  font-size: 1rem;
+  padding-left: 0.3rem;
+}
+
+.symbol-container-2::before {
+  counter-increment: section-3;
+  content: counter(section-3);
+  font-size: 1rem;
+  padding-left: 0.3rem;
+}
+
+h1 {
+  letter-spacing: 0.5rem;
+}
+
+h2,
+h5,
+h6 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h6 {
+  padding-bottom: 0.5rem;
+}
+
+h6,
+h5 {
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+
+tfoot::before {
+  height: 2rem;
+  display: table-row;
+  content: "";
+}
+
+h1,
+h5 {
+  text-transform: uppercase;
+}
+
+h1 span {
+  font-size: 4rem;
+}
+
+li span {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+li div {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+}
+
+[rowspan="2"] {
+  color: #000000;
+}
+
+/* non-metall */
+
+tbody tr:nth-child(1) td:first-child {
+  background-color: #7f8286;
+}
+
+tbody tr:nth-of-type(2) td:nth-last-child(5) {
+  background-color: #7f8286;
+}
+
+tbody tr:nth-of-type(1n + 2) td:nth-last-child(3) {
+  background-color: #7f8286;
+}
+
+tbody tr:nth-of-type(1n + 2) td:nth-last-child(4) {
+  background-color: #7f8286;
+}
+
+/* Metalloid */
+
+tbody tr:nth-of-type(2) td:nth-last-child(6) {
+  background-color: #2ea339;
+}
+
+tbody tr:nth-of-type(1n + 3) td:nth-last-child(5) {
+  background-color: #2ea339;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-last-child(4) {
+  background-color: #2ea339;
+}
+
+tbody tr:nth-of-type(1n + 5) td:nth-last-child(3) {
+  background-color: #2ea339;
+}
+
+/* Metall */
+
+tbody tr:nth-of-type(1n + 3) td:nth-last-child(6) {
+  background-color: #196933;
+}
+
+tbody tr:nth-of-type(1n + 5) td:nth-last-child(5) {
+  background-color: #196933;
+}
+
+tbody tr:nth-of-type(1n + 6) td:nth-last-child(4) {
+  background-color: #196933;
+}
+
+tbody tr:nth-of-type(7) td:nth-last-child(3) {
+  background-color: #196933;
+}
+
+/* Noble gas */
+
+tbody tr:nth-of-type(1n + 1) td:last-child {
+  background-color: #1b75c3;
+}
+
+/* Transition Metall */
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(3) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(4) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(5) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(6) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(7) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(8) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(9) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(10) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(11) {
+  background-color: #5f3e9d;
+}
+
+tbody tr:nth-of-type(1n + 4) td:nth-of-type(12) {
+  background-color: #5f3e9d;
+}
+
+/* Alkali metal */
+
+tbody tr:nth-of-type(1n + 2) td:first-child {
+  background-color: #f38304;
+}
+
+/* Alkaline earth metal */
+
+tbody tr:nth-of-type(1n + 2) td:nth-of-type(2) {
+  background-color: #c61c17;
+}
+
+/* Hallogen */
+
+tbody tr:nth-of-type(1n + 2) td:nth-last-child(2) {
+  background-color: #26adf7;
+}
+
+/* Actinide  */
+
+tfoot tr:nth-child(1) td:nth-of-type(1n + 3) {
+  background-color: #aa4aa5;
+}
+
+tfoot tr:nth-child(1) td:last-child {
+  background-color: white;
+}
+
+/* Lenthanide */
+
+tfoot tr:nth-child(2) td:nth-of-type(1n + 3) {
+  background-color: #ed510d;
+}
+
+tfoot tr:nth-child(2) td:last-child {
+  background-color: white;
+}
