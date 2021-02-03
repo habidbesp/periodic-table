@@ -15,7 +15,7 @@ main {
 
 table {
   table-layout: fixed;
-  width: 1380px;
+  width: 1385px;
   color: #ffffff;
   counter-reset: section section-2 71 section-3 103;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
