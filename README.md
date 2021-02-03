@@ -11,6 +11,5 @@
 
 ![Periodic-table](img/periodicTable.png)
 
-[go to the live-page]()
+[go to the live-page](https://habidbesp.github.io/periodic-table/)
 
-# periodicTable
