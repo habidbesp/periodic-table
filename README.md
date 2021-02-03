@@ -5,7 +5,7 @@
 ### Topics to exercise
 
 - table, thead, tbody, tr, th and td tags
-- CSS selectors
+- CSS selectors :nth-child(), :first-child(), :last-child(), etc.
 - Responsive Tables
 - Counter-reset and counter-increment
 
